@@ -1,0 +1,71 @@
+name: Reportar um erro
+description: Você encontrou um bug? Denuncie aqui
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+     value: |
+      Um grande obrigado por sua ajuda. No entanto, precisamos de uma certa quantidade de informações para nos ajudar.
+  - type: checkboxes
+    attributes:
+      label: "Lista de verificações a serem feitas antes de validar a abertura do relatório de bug"
+      description: Certifique-se de ter concluído o seguinte, caso contrário, seu relatório pode ser recusado
+      options:
+        - label: Consegui reproduzir o bug no MineCraft Launcher (sem minhas modificações)
+          required: true
+        - label: Meu código respeita a licença Creative Commons Zero v1.0 Universal
+          required: true
+        - label: Meu código está em conformidade com os Termos de Serviço do MineCraft Launcher
+          required: true
+        - label: Consigo reproduzir o bug na última versão do MineCraft Launcher
+          required: true
+  - type: dropdown
+    attributes:
+      label: Sistema operacional
+      options:
+        - Windows
+        - macOS
+        - Linux (Baseado em Debian/Ubuntu)
+        - Linux (Outros)
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Versão do sistema operacional
+      placeholder: "Exemplo: Windows 11 Professional 21H2 Build 22000.739"
+    validations:
+        required: true
+  - type: input
+    attributes:
+      label: Hash do commit no qual o bug foi encontrado
+      placeholder: 84d7881b67ecf6088205eca6723bfb19bf2a5f0d
+  - type: textarea
+    attributes:
+      label: Comportamento esperado
+      description: Uma descrição do que deve acontecer
+      placeholder: O Launcher deveria...
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Comportamento atual
+      description: Uma descrição do que está acontecendo com o bug
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Instruções para replicar o objetivo
+      placeholder: |
+        1. Abra o launcher
+        2. Vá para o menu xyz
+        3. Clique em abc
+        4. Observe
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Notas Adicionais
+      placeholder: Detalhes adicionais do bug, qualquer coisa que possa ser útil
+    validations:
+      required: false

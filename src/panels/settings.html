@@ -1,0 +1,65 @@
+<div class="settings-content">
+    <div class="tabs-settings-btn">
+        <button class="tab-btn-css tab-btn active-tab-btn default-tab-btn">Conta</button>
+        <button class="tab-btn-css tab-btn">Java</button>
+        <button class="tab-btn-css tab-btn">Launcher</button>
+        <button class="tab-btn-css save-tabs-btn">Salve</button>
+    </div>
+
+    <div class="tabs-settings-content active-tab-content">
+        <div class="center-align">
+            <button class="add-account">Adicionar uma conta</button>
+            <div class="accounts"></div>
+        </div>
+    </div>
+
+    <div class="tabs-settings-content">
+        <div class="settings-content-scroll">
+            <div class="title-settings">Parâmetro da sua RAM.</div>
+            <div class="java-settings">
+                <div class="information">
+                    Definição da RAM alocada para o seu jogo, uma quantidade maior aumentará o desempenho do seu jogo.
+                    outros aplicativos.
+                    <br><br>
+                    <b>- RAM Máxima:</b> Indica a quantidade total de RAM alocada para o seu jogo. Recomenda-se não exceder 50% da quantidade
+                    total de RAM presente no seu PC para que ele funcione corretamente. Se o seu computador
+                    tiver mais de 8 GB de RAM, recomendamos alocar 3 GB. Se seu computador tiver 4 GB ou menos, não aloque mais de 2
+                    GB.<br><br>
+                    <b>- RAM Mínima:</b> Indica a quantidade mínima de RAM alocada ao iniciar seu jogo, é recomendado não colocar mais que
+                    3GB para este valor. O valor típico é 1 GB.
+                </div>
+                <div class="ram-info">
+                    <div class="memory-slider" min="0.5" max="8" step="0.5">
+                        <div class="slider-touch-left">
+                            <span value="0 GB"></span>
+                        </div>
+                        <div class="slider-touch-right">
+                            <span value="0 GB"></span>
+                        </div>
+                        <div class="slider-line">
+                            <span></span>
+                        </div>
+                    </div>
+
+                    <div class="ram-info-block">
+                        <b>Você tem um total de <span id="total-ram">0 GB</span> de RAM.</b><br>
+                        <b>Você tem um total de <span id="free-ram">0 GB</span> de RAM disponível.</b>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tabs-settings-content">
+        <div class="center-page">
+            <div class="title-settings">Configuração após o lançamento do jogo.</div>
+            <div class="java-settings">
+                <div class="information">
+                    <input type="checkbox" class="checkbox-settings" id="launcher-close"><label for="launcher-close"><div class="checkround"></div></label> Feche o inicializador após iniciar o jogo.</br>
+                    <input type="checkbox" class="checkbox-settings" id="launcher-close-all"><label for="launcher-close-all"><div class="checkround"></div></label> Feche o jogo se o inicializador estiver fechado.</br>
+                    <input type="checkbox" class="checkbox-settings" id="launcher-open"><label for="launcher-open"><div class="checkround"></div></label> Mantenha o inicializador aberto após iniciar o jogo.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
