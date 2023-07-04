@@ -1,13 +1,31 @@
-name: Build
+name: Launcher Build
 
-on: push
+on:  push
 
 jobs:
-  release:
-    runs-on: ${{ matrix.os }}
+  create-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
 
-    permissions:
-      contents: write
+      - name: Get version
+        run: echo "version=$(jq -r .version package.json)" >> $GH_TOKEN
+      
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        with:
+          tag_name: ${{ env.version }}
+          release_name: release ${{ env.version }}
+          draft: false
+          prerelease: ${{ contains(env.version, 'beta') || contains(env.version, 'alpha') }}
+
+  build-launcher:
+    needs: create-release
+    runs-on: ${{ matrix.os }}
 
     strategy:
       matrix:
@@ -15,12 +33,12 @@ jobs:
 
     steps:
       - name: Check out Git repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v1
 
       - name: Set up Node
         uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: 18.x
 
       - name: Set up Python
         uses: actions/setup-python@v4
