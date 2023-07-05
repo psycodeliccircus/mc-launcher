@@ -14,7 +14,8 @@
   <a href="https://github.com/psycodeliccircus/mc-launcher/stargazers"><img src="https://img.shields.io/github/stars/psycodeliccircus/mc-launcher?style=for-the-badge" alt="GitHub Repo stars"></a>
 </p>
 
-Bem-vindo ao MC Launcher, o melhor e mais poderoso launcher para Minecraft baseado na tecnologia Eletron. Com uma interface amigável e uma série de recursos incríveis, você pode personalizar e gerenciar sua experiência no mundo do Minecraft como nunca antes.
+Bem-vindo ao MC Launcher, o melhor e mais poderoso launcher para Minecraft baseado na tecnologia Eletron. 
+Com uma interface amigável e uma série de recursos incríveis, você pode personalizar e gerenciar sua experiência no mundo do Minecraft como nunca antes.
 
 ## Recursos
 
