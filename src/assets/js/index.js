@@ -22,9 +22,12 @@ class Splash {
 
     async startAnimation() {
         let splashes = [
-            { "message": "Ele sabe...", "author": "Luuxis" },
-            { "message": "Oi, eu sou o código.", "author": "Luuxis" },
-            { "message": "O Linux não tem um sistema operacional, mas um kernel.", "author": "Luuxis" }
+            { "message": "MC Launcher: sua porta para aventuras infinitas no Minecraft.", "author": "RenildoMarcioAI" },
+            { "message": "Explore, construa e jogue com o MC Launcher.", "author": "RenildoMarcioAI" },
+            { "message": "Jogue Minecraft ao máximo com o MC Launcher.", "author": "RenildoMarcioAI" },
+            { "message": "MC Launcher: sua entrada para o universo do Minecraft.", "author": "RenildoMarcioAI" },
+            { "message": "Descubra o Minecraft com o MC Launcher.", "author": "RenildoMarcioAI" },
+            { "message": "Jogue Minecraft com facilidade usando o MC Launcher.", "author": "RenildoMarcioAI" }
         ]
         let splash = splashes[Math.floor(Math.random() * splashes.length)];
         this.splashMessage.textContent = splash.message;
