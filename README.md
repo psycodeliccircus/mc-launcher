@@ -2,7 +2,7 @@
 
 <h1 align="center">MC Launcher</h1>
 
-#### <p align="center">*(MC Launcher - Um Poderoso e Versátil Launcher de Minecraft baseado em Eletron!)*</p>
+<p align="center">*(MC Launcher - Um Poderoso e Versátil Launcher de Minecraft baseado em Eletron!)*</p>
 <p align="center">
   <img src="https://img.shields.io/github/downloads/psycodeliccircus/mc-launcher/total?style=for-the-badge" alt="GitHub all releases">
   <img src="https://img.shields.io/discord/1109728016336175154?style=for-the-badge" alt="Discord">
