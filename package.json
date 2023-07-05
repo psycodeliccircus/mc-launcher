@@ -1,7 +1,7 @@
 {
     "name": "mc-launcher",
     "preductname": "MineCraft Launcher",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "description": "Launcher Minecraft custom (crack, premium)",
     "main": "src/app.js",
     "author": "RenildoMarcio",
@@ -12,7 +12,7 @@
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "build": "node build.js --build",
-        "icon": "node build.js --icon=https://api.renildomarcio.com.br/mc/server-icon.png",
+        "icon": "node build.js --icon=https://api.renildomarcio.com.br/mc/512.png",
         "dev": "nodemon --exec npm start"
     },
     "license": "CC0",
