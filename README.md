@@ -4,13 +4,13 @@
 
 #### <p align="center">*(MC Launcher - Um Poderoso e Versátil Launcher de Minecraft baseado em Eletron!)*</p>
 <p align="center">
-![GitHub all releases](https://img.shields.io/github/downloads/psycodeliccircus/mc-launcher/total?style=for-the-badge)
-![Discord](https://img.shields.io/discord/1109728016336175154?style=for-the-badge)
-![GitHub package.json version](https://img.shields.io/github/package-json/v/psycodeliccircus/mc-launcher?style=for-the-badge)
-  </p>
+  <img src="https://img.shields.io/github/downloads/psycodeliccircus/mc-launcher/total?style=for-the-badge" alt="GitHub all releases">
+  <img src="https://img.shields.io/discord/1109728016336175154?style=for-the-badge" alt="Discord">
+  <img src="https://img.shields.io/github/package-json/v/psycodeliccircus/mc-launcher?style=for-the-badge" alt="GitHub package.json version">
+</p>
 <p align="center">
-![GitHub forks](https://img.shields.io/github/forks/psycodeliccircus/mc-launcher?style=for-the-badge)
-![GitHub Repo stars](https://img.shields.io/github/stars/psycodeliccircus/mc-launcher?style=for-the-badge)
+  <img src="https://img.shields.io/github/forks/psycodeliccircus/mc-launcher?style=for-the-badge" alt="GitHub forks">
+  <img src="https://img.shields.io/github/stars/psycodeliccircus/mc-launcher?style=for-the-badge" alt="GitHub Repo stars">
 </p>
 
 Bem-vindo ao MC Launcher, o melhor e mais poderoso launcher para Minecraft baseado na tecnologia Eletron. Com uma interface amigável e uma série de recursos incríveis, você pode personalizar e gerenciar sua experiência no mundo do Minecraft como nunca antes.
