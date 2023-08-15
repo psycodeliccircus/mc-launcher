@@ -1,5 +1,5 @@
 /**
- * @author RenildoMarcio
+ * @author RenildoMarcio <renildomrc@gmail.com>
  * @license CC-BY-NC 4.0 - https://creativecommons.org/licenses/by-nc/4.0/
  */
 
